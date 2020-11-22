@@ -35,7 +35,7 @@ try {
         secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
       ]]) {
         ansiColor('xterm') {
-          sh 'sudo terraform plan'
+          sh 'terraform plan'
         }
       }
     }
