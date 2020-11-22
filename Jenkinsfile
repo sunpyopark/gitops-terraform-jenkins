@@ -41,7 +41,6 @@ try {
     }
   }
 
-  if (env.BRANCH_NAME == 'master') {
 
     // Run terraform apply
     stage('apply') {
@@ -57,7 +56,7 @@ try {
           }
         }
       }
-    }
+ 
 
     // Run terraform show
     stage('show') {
